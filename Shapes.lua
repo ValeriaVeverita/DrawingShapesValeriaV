@@ -1,7 +1,7 @@
 --Title : Drawing Shapes
 --Name : Valeria Veverita
 --Course: ICS2O
---This program displays a triangle, gives its definition and calculates its area
+--This program shows all the shapes we are going to discover and contains the press button
 local composer = require( "composer" )
  
 local scene = composer.newScene()
