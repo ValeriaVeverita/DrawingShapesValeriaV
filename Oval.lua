@@ -1,3 +1,7 @@
+--Title : Drawing Shapes
+--Name : Valeria Veverita
+--Course: ICS2O
+--This program displays an oval, gives its definition and calculates its area
 local composer = require( "composer" )
  
 local scene = composer.newScene()
