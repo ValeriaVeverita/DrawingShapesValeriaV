@@ -1,13 +1,10 @@
+--Title : Drawing Shapes
+--Name : Valeria Veverita
+--Course: ICS2O
+--This program displays a trapezoid, gives its definition and calculates its area
 local composer = require( "composer" )
  
 local scene = composer.newScene()
- 
--- -----------------------------------------------------------------------------------
--- Code outside of the scene event functions below will only be executed ONCE unless
--- the scene is removed entirely (not recycled) via "composer.removeScene()"
--- -----------------------------------------------------------------------------------
- 
- 
  
  local function changeScene(  )
      composer.gotoScene("Pentagon",{effect="fade",time =500})
