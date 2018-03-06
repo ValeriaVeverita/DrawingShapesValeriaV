@@ -1,5 +1,7 @@
-
-	
+--Title : Drawing Shapes
+--Name : Valeria Veverita
+--Course: ICS2O
+--This program displays an image made from different shapes.It gives the costumer the opportunity to replay the program
 	local composer = require( "composer" )
  
 local scene = composer.newScene()
