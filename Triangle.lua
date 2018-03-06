@@ -1,20 +1,12 @@
-
+--Title : Drawing Shapes
+--Name : Valeria Veverita
+--Course: ICS2O
+--This program displays a triangle, gives its definition and calculates its area
 
 local composer = require( "composer" )
  
 local scene = composer.newScene()
- 
--- -----------------------------------------------------------------------------------
--- Code outside of the scene event functions below will only be executed ONCE unless
--- the scene is removed entirely (not recycled) via "composer.removeScene()"
--- -----------------------------------------------------------------------------------
- 
- 
- 
- 
--- -----------------------------------------------------------------------------------
--- Scene event functions
--- -----------------------------------------------------------------------------------
+
  local function changeScenes(  )
  	composer.gotoScene("Oval",{effect = "fade", time = 500})
  end
